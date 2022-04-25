@@ -1,0 +1,12 @@
+// Dir - Presents all types of atributes/properties and functions/methods available. (Data type/variable)
+
+// Help - Shows how to use the atributes/properties and functions/methods available for specific type of data ou variable. (Data type/variable.property)
+
+Ex:
+
+num = 4
+dir(num) > Shows all types of atributes/properties and functions/methods available.
+One of them is 'real', if u do not know it's functionality do this:
+
+num = 4
+help(num.real) > Presents explanation: 'real' converts a number or a string into an integer, or return 0 if no arguments are given.
