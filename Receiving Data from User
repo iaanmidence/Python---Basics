@@ -1,0 +1,36 @@
+Every data received by input is a string, so you have to cast (convert a data ype to another) if u wanna change it. 
+
+
+
+//Asking user's name: (old way 'python 2')
+
+print("What's your name?")
+name = input()    # Ian Quintana
+print('Welcome %s' % name)    # Welcome Ian Quintana
+print("How old are you?") 
+age = input()   //26
+print("% is % years old" % (name, age))   # Ian Quintana is 26 years old
+
+
+
+
+(new way 'python 3')
+
+print("What's your name?")
+name = input()   # Ian
+
+print("Welcome {0}".format(name))  # Welcome Ian
+
+print("How old are you?")  # 26
+
+print("{0} is {1} years old".format(name, age)  # Ian is 26 yeas old
+
+
+or
+
+
+print(f"Welcome {name})   # Welcome Ian
+
+print(f"{name} is {age} years old.")   # Ian is 26 years old
+
+print(f"{name} was born in {2022 - int(age0)}")   # Ian was born in 1995
