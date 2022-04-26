@@ -1,0 +1,6 @@
+# You've spent a few days and kms in a rented car, what's gonna be the final price?
+
+days = int(input("Rent days: "))
+km = int(input("How many km? "))
+f = (days * 60) + (km * 0.15)
+print(f"The final payment is {f} dollars.")
