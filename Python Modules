@@ -1,0 +1,10 @@
+# Imagine you have a "candy" libraby. You want to import it:
+
+import candy
+
+#In this case, you have imported ALL candies. But what if you just needed the donut inside the candy library? You wanna do this:
+
+from candy import donut
+
+--------------------------------------------------------------------------------------------------------------------------------
+
