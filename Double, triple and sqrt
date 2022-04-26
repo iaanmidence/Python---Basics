@@ -1,0 +1,8 @@
+# Finding the double, triple and square root of a value:
+
+import math
+n = int(input("Type a number: "))
+d = n * 2
+t = n * 3
+s = int(math.sqrt(n))
+print(f"The double of {n} is : {d}. \nThe triple of {n} is: {t}. \nThe square root of {n} is {s}.")
