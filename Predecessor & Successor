@@ -1,0 +1,4 @@
+# Simple program gives u the predecessor and successor of a value.
+
+n = int(input("Type a value: ")) > 10.
+print(f"The predecessor of {n} is {n - 1} and the successor is {n + 1}.") > 9 and 11.
