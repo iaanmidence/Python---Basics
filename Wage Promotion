@@ -1,0 +1,5 @@
+# What's the final wage after the promotion?
+
+s = float(input("Type your salary: "))
+p = s + (s * 15 / 100)
+print(f"The salary before the promotion was {s}, after the promotion the salary is now {p}.")
