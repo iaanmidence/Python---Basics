@@ -1,0 +1,23 @@
+# Legal age:
+
+print("How old are you?")
+age = int(input())
+if age < 18:
+    print("You're under 18")
+elif age == 18:
+    print("You're 18")
+else:
+    print("You're over 18")
+    
+    
+    
+# Traffic violation:
+
+print("Do you have a drivers license?")
+answer = input()
+if answer == "yes":
+    print("Okay, you can drive")
+elif answer == "no":
+    print("Step out of the car, please. You cannot drive")
+else:
+    print("Im gonna give you a ticket for traffic violation")
