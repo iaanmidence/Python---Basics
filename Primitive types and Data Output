@@ -1,0 +1,22 @@
+# Simple sum:
+
+n1 = int(input("Enter a value: "))
+n2 = int(input("Enter another value: "))
+s = n1 + n2
+print(f"The sum of {n1} and {n2} is {s}) 
+
+
+
+
+# Cast int to float:
+
+n = float(input("Type a value: "))
+print(n) > 4.0
+
+
+
+
+# Cast to boolean:
+
+n = bool(input("Type a value: ")) > 4
+print(n) > True "because it does have a value inside independent of the data type"
