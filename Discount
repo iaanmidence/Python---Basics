@@ -1,0 +1,7 @@
+# You're getting a discount of 5%. How is it?
+
+p = int(input("Product price: "))   #100
+
+d = p - (p * 5 / 100)   #price minus the discount (5%)  #95
+
+print(f"The product was {p} $, but with descount of 5% the price will be {d} $.")
