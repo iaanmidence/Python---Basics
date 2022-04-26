@@ -1,0 +1,27 @@
+# User:
+
+active = True
+logged = False
+
+if active and logged:
+    print("Welcome!")
+else:
+    print("You need to validate your account, please check your e-mail.") 
+    
+
+
+
+
+active = True
+logged = False
+
+if active or logged: 
+    print("Welcome!")
+else:
+    print("You need to validate your account, please check your e-mail.")
+    
+
+
+# For "and" bothe values have to be True. 
+# For "or", one of the values has to be True. 
+# For "not", the boolean value is inverted, True turns to False, and vice versa.
