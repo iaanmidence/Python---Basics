@@ -1,0 +1,5 @@
+# You want to change reais to dollars, the program bellow can help:
+
+real = float(input("How much reais do you wanna convert do dollars? "))
+dollar = real / 2.50
+print(f"With the value of {real} reais, you're getting {dollar} dollars.")
