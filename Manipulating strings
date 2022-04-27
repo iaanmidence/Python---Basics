@@ -24,3 +24,62 @@ print(name[3:])   # answer: ago. (Starts couting from index 5 till the end)
 
 name = "Santiago"
 print(name[0::7])   # answer: So. (Starts couting from index 0, ignores the rest and jumps straight to index 7)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Counting specific characters:
+
+
+name = "Santiago"
+
+print(name.count('a'))  # answer: There's two letters "a" so the answer is 2.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Tranformation
+
+# Replacing text:
+
+name = "Santiago Quintana"
+
+print(name.replace.("Quintana", "Midence"))   # answer: Santiago Midence.
+
+
+# Text size:
+
+name = "Santiago"
+
+print(name.upper())   # answer: SANTIAGO.
+
+or
+
+name.lower()   # answer: santiago.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Nulling white spaces:
+
+name = "   Santiago Quintana      "
+
+print(name.strip())   # answer: "Santiago Quintana". (removes the white spaces coming from all the sides).
+
+!
+
+name.rstrip()   # removes the white spaces coming fro the RIGHT side.
+
+name.lstrip()   # removes the white spaces coming fro the LEFT side.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Generating a list of characters
+
+name = "Santiago Quintana Midence"
+
+print(name.split())   # ["Santiaago", "Quintana", "Midence"] > 0, 1, 2
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Join
+
+n = "Santiago Quintana"
+print('-'.join(n))   # S-a-n-t-i-a-g-o- -Q-u-i-n-t-a-n-a
