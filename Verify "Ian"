@@ -1,0 +1,5 @@
+# Create a program that verifys if the input name is equal to "Ian".
+
+name = str(input("What's your name?")).strip()   # .strip eliminates the white spaces.
+
+print(name[:4].upper() == "IAN")   # best practice here is to leave the .upper method activated so if there's any mistakes by the user, the program can handle it.
