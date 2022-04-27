@@ -1,0 +1,26 @@
+# Slicing strings:
+
+> Since the name Santiago has 8 letters = S[0], a[1], n[2], t[3]...
+
+name = "Santiago"
+print(Santiago[1])   # answer: a.
+
+
+name = "Santiago"
+print(name[0:5])   # answer: Santi. (This counting excludes the last digit)
+
+
+name = "Santiago"
+print(name[0:8:2])   # answer: Snig. (The "2" in [0:8:2] represents it's counting 2 by 2 from index 0 to 8)
+
+
+name = "Santiago"
+print(name[:5])   # answer: Santi. (Starts couting from index 0 to 5)
+
+
+name = "Santiago"
+print(name[3:])   # answer: ago. (Starts couting from index 5 till the end)
+
+
+name = "Santiago"
+print(name[0::7])   # answer: So. (Starts couting from index 0, ignores the rest and jumps straight to index 7)
