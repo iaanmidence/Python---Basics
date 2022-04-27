@@ -1,0 +1,5 @@
+# Create a program that asks if there's a specific surname in it > "Midence":
+
+name = str(input("Type your full name: ").strip()
+
+check = "Midence" in name.lower()
