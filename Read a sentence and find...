@@ -1,0 +1,18 @@
+  # Read a sentence and then print: 
+  
+  - how many letter A's inside of the sentence
+  - Index of first letter A 
+  - Index of last letter A 
+  
+  
+frase = str(input("Enter any sentence: ")).upper()
+
+a = frase.count('A')
+
+f = frase.find('A') + 1   # The (+ 1) "turns" first index to "1" instead of "0".
+
+p = frase.rfind('A') + 1
+
+print(f"This sentence has {a} A's inside of it.")
+print(f"The first letter A appear in index: {f}.")
+print(f"The last letter A appears in index: {p}.")
