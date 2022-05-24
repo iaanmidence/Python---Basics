@@ -7,7 +7,7 @@ print(Santiago[1])   # answer: a.
 
 
 name = "Santiago"
-print(name[0:5])   # answer: Santi. (This counting excludes the last digit)
+print(name[0:5])   # answer: Santi. (This counting excludes the last digits)
 
 
 name = "Santiago"
